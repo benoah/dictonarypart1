@@ -1,0 +1,209 @@
+
+.topnav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+img {
+    width: 80%;
+    max-width: 210px;
+    border-radius: 3px;
+    display: block;
+    border: 0;
+}
+
+.topnav input[type=text] {
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    padding-left: 2.617924em;
+    padding: 1em 1.41575em;
+    line-height: 1;
+    background-color: #f2f2f2;
+    color: #43454b;
+    border: 0;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    font-weight: normal;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.125);
+  }
+
+  .nav{
+    padding-top: 1.618em;
+    padding-bottom: 1.618em;
+    color: #9aa0a7;
+    background-position: center center;
+    position: relative;
+    z-index: 999;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+
+    
+  }
+
+  header ul  {
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: flex-start;
+    font-weight: 600;
+    text-shadow: none;
+  }
+
+  header li{
+    text-decoration: none;
+  }
+
+  header a{
+    text-decoration: none;
+    font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.618;
+    text-rendering: optimizeLegibility;
+    letter-spacing: normal;
+    word-spacing: normal;
+    padding: 1.618em 1em;
+    color: #747474;
+    text-decoration: none;
+  }
+
+
+  .fa fa-shopping-cart{
+    align-self: flex-end;
+}
+/* Breadcrumb */
+
+
+ul.breadcrumb {
+    list-style: none;
+        color:#727272;
+  
+    }
+  
+  
+    ul.breadcrumb li {
+      display: inline;
+      font-size: 0.875em;;
+    }
+    ul.breadcrumb li+li:before {
+      padding: 8px;
+      color:#727272;
+      content: "/\00a0";
+    }
+  
+    ul.breadcrumb li a {
+      color: #d6d6;
+      text-decoration: none;
+    }
+    ul.breadcrumb li a:hover {
+      color: #727272;
+      text-decoration: underline;
+    }
+  
+     .shop {
+      color: #333333;
+      font-size: 2.617924em;
+      line-height: 1.214;
+      letter-spacing: -1px;
+      clear: both;
+      font-weight: 300;
+      margin: 0 0 0.5407911001em;
+      display: block;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      text-align: center;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  } 
+
+  .containerimage {
+    background-image: url(/img/simple-colour.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      -webkit-box-pack: center;
+  
+      color: #fff;
+      min-height: 400px;
+      padding-top: 50px;
+      font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  
+  .containerimage h2{
+      font-size: 32px;
+      padding: 16px 48px 0px ;
+      text-align: center;
+      font-weight: thin;
+      text-rendering: optimizeLegibility;
+  }
+  .containerimage p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      text-align: center;
+      font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      text-rendering: optimizeLegibility;
+      line-height: 1.5em;
+  }
+  .containerimage .button {
+      background-color: #394f4c;
+      color: #ffffff;
+      border-radius: 0 !important;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 18px;
+      margin: 0;
+      padding: 12px 24px;
+      text-decoration: none;
+      align-items: center;
+      margin: 0 auto;
+      width: 20%;
+      margin-left: 39%;
+      margin-right: 39%
+    }
+  
+  
+    .cardsStore{
+      display: flex;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      justify-content: space-evenly;
+      margin-top: 2rem;
+      padding: 1rem;
+      align-content: stretch;
+      margin: 20px;;
+      
+    }
+  
+    .link{
+      color: white;
+      font-size: 1em;
+      line-height: 1.618;
+  
+  
+    }
+  
+    button {
+      background-color: #e0aab9;
+      text-decoration: underline;   
+       border: 0;
+       cursor: pointer;
+       padding: 0.6180469716em 1.41575em;
+       display: inline-block;
+       -webkit-appearance: none;
+       text-shadow: none;
+       margin-bottom: 15px;
+  
+  }
+  
+    
+  
